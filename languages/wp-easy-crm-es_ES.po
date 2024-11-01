@@ -1,0 +1,845 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy CRM\n"
+"POT-Creation-Date: 2023-03-15 13:52-0600\n"
+"PO-Revision-Date: 2023-03-15 16:29-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: easy-crm.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: easy-crm.php:222
+msgid ""
+"<p>This is sample text for a header. You can change it in the settings of "
+"this plugin.</p>"
+msgstr ""
+"<p>Este es un texto de ejemplo para un encabezado. Puede cambiarlo en los "
+"ajustes de este plugin.</p>"
+
+#: easy-crm.php:226
+msgid ""
+"<p>This is sample text for a footer in your quotes/invoices. You can change "
+"it in the settings of this plugin.</p>"
+msgstr ""
+"<p>Este es un texto de muestra para un pie de página en sus cotizaciones / "
+"facturas. Puede cambiarlo en los ajustes de este plugin.</p>"
+
+#: easy-crm.php:304
+msgid ""
+"Form successfully submitted. Thank you! We will get in touch with you "
+"shortly. Feel free to look through our website."
+msgstr ""
+"Formulario enviado correctamente. ¡Gracias! Nos pondremos en contacto con "
+"usted en breve."
+
+#: easy-crm.php:319
+msgid "error - client information couldn't be stored: "
+msgstr "error: no se pudo almacenar la información del cliente: "
+
+#. Plugin Name of the plugin/theme
+#: easy-crm.php:334
+msgid "Easy CRM"
+msgstr "Easy CRM"
+
+#: easy-crm.php:335 views/listClients.php:80
+msgid "Contacts"
+msgstr "Contactos"
+
+#: easy-crm.php:336 views/addTask.php:196 views/tasks.php:92
+msgid "Tasks"
+msgstr "Tareas"
+
+#: easy-crm.php:337 views/quotationsInvoices.php:36
+msgid "Quotes / Invoices"
+msgstr "Cotizaciones / Facturas"
+
+#: easy-crm.php:338 views/forms.php:5
+msgid "Forms"
+msgstr "Formularios"
+
+#: easy-crm.php:339
+msgid "Settings"
+msgstr "Ajustes"
+
+#: views/addClient.php:36
+msgid "client successfully updated"
+msgstr "Cliente actualizado correctamente"
+
+#: views/addClient.php:55
+msgid "client successfully saved"
+msgstr "Cliente guardado correctamente"
+
+#: views/addClient.php:58
+msgid "error - client information couldn't be stored"
+msgstr "Error: no se pudo almacenar la información del cliente"
+
+#: views/addClient.php:77 views/addClientLog.php:159 views/addQuote.php:289
+#: views/addTask.php:192 views/quoteView.php:154
+msgid "List of all Clients"
+msgstr "Lista de todos los clientes"
+
+#: views/addClient.php:78 views/listClients.php:70
+msgid "Add Client"
+msgstr "Agregar cliente"
+
+#: views/addClient.php:89
+msgid "Client name / Company name*"
+msgstr "Nombre del cliente / Nombre de la empresa*"
+
+#: views/addClient.php:90
+msgid "Enter client or company name"
+msgstr "Introduzca el nombre del cliente o de la empresa"
+
+#: views/addClient.php:95
+msgid "Client status*"
+msgstr "Estado del cliente*"
+
+#: views/addClient.php:96 views/addClient.php:98
+msgid "Choose client status"
+msgstr "Elegir el estado del cliente"
+
+#: views/addClient.php:99
+msgid "Lead"
+msgstr "Cliente potencial"
+
+#: views/addClient.php:100
+msgid "Customer"
+msgstr "Cliente"
+
+#: views/addClient.php:101
+msgid "Refused"
+msgstr "Rechazado"
+
+#: views/addClient.php:102
+msgid "Blacklisted"
+msgstr "En la lista negra"
+
+#: views/addClient.php:111
+msgid "Client source*"
+msgstr "Fuente del cliente*"
+
+#: views/addClient.php:112 views/addClient.php:114
+msgid "Choose client source"
+msgstr "Elegir fuente del cliente"
+
+#: views/addClient.php:115
+msgid "Website"
+msgstr "Sitio web"
+
+#: views/addClient.php:116
+msgid "Email"
+msgstr "Email"
+
+#: views/addClient.php:117
+msgid "Call"
+msgstr "Llamada"
+
+#: views/addClient.php:118
+msgid "Social Media"
+msgstr "Redes Sociales"
+
+#: views/addClient.php:119
+msgid "Recommendation"
+msgstr "Recomendación"
+
+#: views/addClient.php:120
+msgid "Other"
+msgstr "Otro"
+
+#: views/addClient.php:127
+msgid "Email(s)*"
+msgstr "Correo(s) electrónico*"
+
+#: views/addClient.php:127
+msgid "several emails divided by a comma are allowed"
+msgstr "se permiten varios correos electrónicos divididos por una coma"
+
+#: views/addClient.php:128
+msgid "Enter email(s)"
+msgstr "Introduzca correo(s) electrónico(s)"
+
+#: views/addClient.php:133
+msgid "Name(s) of contact*"
+msgstr "Nombre(s) de contacto*"
+
+#: views/addClient.php:134
+msgid "Enter contact name(s)"
+msgstr "Introduzca nombre(s) de contacto"
+
+#: views/addClient.php:139
+msgid "Telephone number(s)"
+msgstr "Número(s) de teléfono"
+
+#: views/addClient.php:140
+msgid "Enter telephone number(s)"
+msgstr "Introduzca número(s) de teléfono"
+
+#: views/addClient.php:145
+msgid "Province / State"
+msgstr "Provincia / Estado"
+
+#: views/addClient.php:146
+msgid "Enter province / state"
+msgstr "Introduzca la provincia / estado"
+
+#: views/addClient.php:152
+msgid "Address"
+msgstr "Dirección"
+
+#: views/addClient.php:153
+msgid "Enter address"
+msgstr "Ingrese la dirección"
+
+#: views/addClient.php:158
+msgid "Note"
+msgstr "Nota"
+
+#: views/addClient.php:159
+msgid "Enter note"
+msgstr "Introducir nota"
+
+#: views/addClient.php:164 views/addClientLog.php:178 views/addTask.php:253
+msgid "Submit"
+msgstr "Enviar"
+
+#: views/addClientLog.php:39
+msgid ""
+"This log can not be edited or deleted anymore. More than an hour has passed. "
+"Please add a new log and/or return to the client profile"
+msgstr ""
+"Este registro ya no se puede editar ni eliminar. Ha pasado más de una hora. "
+"Agregue un nuevo registro y/o vuelva al perfil del cliente"
+
+#: views/addClientLog.php:47
+msgid "log successfully deleted. You can return to the client profile."
+msgstr "Registro eliminado correctamente. Puede volver al perfil de cliente."
+
+#: views/addClientLog.php:51
+msgid "error - log couldn't be deleted"
+msgstr "Error: no se pudo eliminar el registro"
+
+#: views/addClientLog.php:75
+msgid ""
+"This log can not be edited anymore. More than an hour has passed. Please add "
+"a new log and/or return to the client profile"
+msgstr ""
+"Este registro ya no se puede editar. Ha pasado más de una hora. Agregue un "
+"nuevo registro y/o vuelva al perfil del cliente"
+
+#: views/addClientLog.php:119 views/addClientLog.php:147
+msgid "error - log information couldn't be stored"
+msgstr "Error: no se pudo almacenar la información de registro"
+
+#: views/addClientLog.php:124 views/addClientLog.php:142
+msgid "log successfully saved. You can return to the client profile."
+msgstr "Registro guardado correctamente. Puede volver al perfil de cliente."
+
+#: views/addClientLog.php:160 views/addQuote.php:291 views/addTask.php:194
+#: views/quoteView.php:156
+msgid "Client Profile"
+msgstr "Perfil del cliente"
+
+#: views/addClientLog.php:161
+msgid "Add / Edit Client Log for "
+msgstr "Agregar / editar registro de cliente para "
+
+#: views/addClientLog.php:169
+msgid "Log Title*"
+msgstr "Título del registro*"
+
+#: views/addClientLog.php:172
+msgid "Log Description"
+msgstr "Descripción del registro"
+
+#: views/addClientLog.php:175
+msgid "Created By"
+msgstr "Creado Por"
+
+#: views/addQuote.php:34
+msgid ""
+"quote / invoice successfully deleted. You can return to the client profile."
+msgstr ""
+"Cotización / factura eliminado correctamente. Puede volver al perfil de "
+"cliente."
+
+#: views/addQuote.php:38
+msgid "error - quote / invoice couldn't be deleted"
+msgstr "Error: no se pudo eliminar la cotización / factura"
+
+#: views/addQuote.php:44
+msgid "error - some line items couldn't be deleted"
+msgstr "Error: no se pudieron eliminar algunas líneas de pedido"
+
+#: views/addQuote.php:134
+msgid ""
+"Quote / Invoice edit successfully saved. You can return to the client "
+"profile."
+msgstr ""
+"Cotización / factura guardada correctamente. Puede volver al perfil de "
+"cliente."
+
+#: views/addQuote.php:137
+msgid ""
+"error - Some line items for Quote / Invoice couldn't be stored. Please "
+"review that you have entered all data correctly."
+msgstr ""
+"error: no se pudieron almacenar algunas líneas de pedido para presupuesto / "
+"factura. Revise que ha introducido todos los datos correctamente."
+
+#: views/addQuote.php:177
+msgid "Quote successfully saved. You can return to the client profile."
+msgstr "Cotización guardado correctamente. Puede volver al perfil de cliente."
+
+#: views/addQuote.php:202
+msgid ""
+"error - Some line items for Quote /Invoice couldn't be stored. Please review "
+"that you have entered all data correctly."
+msgstr ""
+"error: no se pudieron almacenar algunas líneas de pedido para cotización / "
+"factura. Revise que ha introducido todos los datos correctamente."
+
+#: views/addQuote.php:216
+msgid "error - Quote information couldn't be stored"
+msgstr "error: no se pudo almacenar la información de la cotización"
+
+#: views/addQuote.php:244 views/settings.php:23
+msgid "US Dollars"
+msgstr "USD - Dólares Norte Americanos"
+
+#: views/addQuote.php:245 views/settings.php:24
+msgid "Costa Rican Colon"
+msgstr "Colón costarricense"
+
+#: views/addQuote.php:246 views/settings.php:25
+msgid "Euros"
+msgstr "Euros"
+
+#: views/addQuote.php:247 views/settings.php:26
+msgid "British Pounds"
+msgstr "Libras esterlinas"
+
+#: views/addQuote.php:248 views/settings.php:27
+msgid "Japanese Yen"
+msgstr "Yen japonés"
+
+#: views/addQuote.php:249 views/settings.php:28
+msgid "Australian Dollar"
+msgstr "Dólar australiano"
+
+#: views/addQuote.php:250 views/settings.php:29
+msgid "Canadian Dollar"
+msgstr "Dólar canadiense"
+
+#: views/addQuote.php:251 views/settings.php:30
+msgid "Swiss Franc"
+msgstr "Franco Suizo"
+
+#: views/addQuote.php:252 views/settings.php:31
+msgid "Chinese Yuan"
+msgstr "Yuan chino"
+
+#: views/addQuote.php:253 views/settings.php:32
+msgid "Hong Kong Dollar"
+msgstr "Dólar de Hong Kong"
+
+#: views/addQuote.php:254 views/settings.php:33
+msgid "New Zealand Dollar"
+msgstr "Dólar de Nueva Zelanda"
+
+#: views/addQuote.php:293
+msgid "Add / Edit Quotation / Invoice || "
+msgstr "Agregar / Editar cotización / factura || "
+
+#: views/addQuote.php:303
+msgid "Quote / Invoice Header"
+msgstr "Encabezado de cotización / factura"
+
+#: views/addQuote.php:315
+msgid "Client Information"
+msgstr "Información del Cliente"
+
+#: views/addQuote.php:328
+msgid "Choose current Quote / Invoice status*"
+msgstr "Elija el estado actual de la cotización / factura*"
+
+#: views/addQuote.php:330
+msgid "choose status"
+msgstr "Elegir estado"
+
+#: views/addQuote.php:331
+msgid "Quote"
+msgstr "Cotización"
+
+#: views/addQuote.php:332 views/quoteView.php:189
+msgid "Invoice"
+msgstr "Factura"
+
+#: views/addQuote.php:333
+msgid "Paid"
+msgstr "Pagado"
+
+#: views/addQuote.php:334
+msgid "Cancelled / not accepted"
+msgstr "Cancelado / no aceptado"
+
+#: views/addQuote.php:337
+msgid "Currency*"
+msgstr "Moneda*"
+
+#: views/addQuote.php:356
+msgid ""
+"Line items [Description | Quantity | Price | Tax percentage % (inserted "
+"value taken from settings)]"
+msgstr ""
+"Líneas de pedido [Descripción | Cantidad | Precio | % porcentaje de "
+"impuestos (valor tomado de ajustes predefinidas)]"
+
+#: views/addQuote.php:367 views/addQuote.php:380
+msgid "Item / Product description"
+msgstr "Artículo / Descripción del producto"
+
+#: views/addQuote.php:369 views/addQuote.php:382 views/quoteView.php:198
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: views/addQuote.php:371 views/addQuote.php:384 views/quoteView.php:199
+msgid "Price"
+msgstr "Precio"
+
+#: views/addQuote.php:373 views/addQuote.php:386 views/quoteView.php:200
+msgid "Tax %"
+msgstr "Impuesto %"
+
+#: views/addQuote.php:387
+msgid "remove"
+msgstr "eliminar"
+
+#: views/addQuote.php:391
+msgid "Add item"
+msgstr "Agregar elemento"
+
+#: views/addQuote.php:395
+msgid "Quote / Invoice footer"
+msgstr "Pie de página de cotización / factura"
+
+#: views/addQuote.php:398 views/addQuote.php:402
+msgid "Adjust footer content of your Quotes/Invoices here."
+msgstr ""
+"Ajuste el contenido del pie de página de sus cotizaciones / facturas aquí."
+
+#: views/addQuote.php:407 views/quoteView.php:158
+msgid "Save Quote / Invoice"
+msgstr "Guardar cotización / factura"
+
+#: views/addTask.php:46
+msgid "task successfully deleted. You can return to the client profile."
+msgstr "tarea eliminada correctamente. Puede volver al perfil de cliente."
+
+#: views/addTask.php:50
+msgid "error - task couldn't be deleted"
+msgstr "Error: no se pudo eliminar la tarea"
+
+#: views/addTask.php:61 views/addTask.php:74 views/addTask.php:132
+#: views/addTask.php:176
+msgid "error - task information couldn't be stored"
+msgstr "Error: no se pudo almacenar la información de la tarea"
+
+#: views/addTask.php:64 views/addTask.php:77 views/addTask.php:137
+#: views/addTask.php:164
+msgid "task successfully saved. You can return to the client profile."
+msgstr "Tarea guardada correctamente. Puede volver al perfil de cliente."
+
+#: views/addTask.php:141
+msgid "A task was edited for you"
+msgstr "Se ha editado una tarea para usted"
+
+#: views/addTask.php:142 views/addTask.php:171
+msgid "The Task Title is: "
+msgstr "El título de la tarea es: "
+
+#: views/addTask.php:170
+msgid "A new task was added for you"
+msgstr "Se ha agregado una nueva tarea para usted"
+
+#: views/addTask.php:199
+msgid "mark task as complete"
+msgstr "Marcar tarea como completada"
+
+#: views/addTask.php:201
+msgid "mark task as open"
+msgstr "Marcar tarea como abierta"
+
+#: views/addTask.php:203
+msgid "Add / Edit Task || "
+msgstr "Agregar / Editar tarea || "
+
+#: views/addTask.php:212
+msgid "Task Owner*"
+msgstr "Propietario de la tarea*"
+
+#: views/addTask.php:241
+msgid "Task Title*"
+msgstr "Título de la tarea*"
+
+#: views/addTask.php:244
+msgid "Task Description"
+msgstr "Detalles de la Tarea"
+
+#: views/addTask.php:247
+msgid "Start time"
+msgstr "Hora de inicio"
+
+#: views/addTask.php:250
+msgid "End time"
+msgstr "Hora de finalización"
+
+#: views/clientProfile.php:50
+msgid ""
+"Are you sure that you want to delete the client and all their data like "
+"quotes, invoices, tasks etc?"
+msgstr ""
+"¿Está seguro de que desea eliminar el cliente y todos sus datos como "
+"cotizaciones , facturas, tareas, etc.?"
+
+#: views/clientProfile.php:54
+msgid ""
+"Are you completely sure that you want to delete the client and all their "
+"data like quotes, invoices, tasks etc?"
+msgstr ""
+"¿Está completamente seguro de que desea eliminar el cliente y todos sus "
+"datos como cotizaciones, facturas, tareas, etc.?"
+
+#: views/clientProfile.php:62 views/tasks.php:72
+msgid "Are you sure that you want to delete the this log?"
+msgstr "¿Está seguro de que desea eliminar este registro?"
+
+#: views/clientProfile.php:70 views/tasks.php:80
+msgid "Are you sure that you want to delete the this task?"
+msgstr "¿Está seguro de que desea eliminar esta tarea?"
+
+#: views/clientProfile.php:78
+msgid "Are you sure that you want to delete the this Quote / Invoice?"
+msgstr "¿Está seguro de que desea eliminar esta cotización / factura?"
+
+#: views/clientProfile.php:86 views/tasks.php:88
+msgid "List of all Client Contacts"
+msgstr "Lista de todos los contactos de clientes"
+
+#: views/clientProfile.php:87 views/listClients.php:100 views/tasks.php:89
+msgid "edit client"
+msgstr "Editar cliente"
+
+#: views/clientProfile.php:89
+msgid "Client Contact Profile"
+msgstr "Perfil de contacto del cliente"
+
+#: views/clientProfile.php:90
+msgid "delete client"
+msgstr "Eliminar cliente"
+
+#: views/clientProfile.php:93
+msgid "Status:"
+msgstr "Estado:"
+
+#: views/clientProfile.php:93
+msgid "Contact(s):"
+msgstr "Contacto(s):"
+
+#: views/clientProfile.php:93
+msgid "Telephone(s):"
+msgstr "Teléfono(s):"
+
+#: views/clientProfile.php:93
+msgid "State:"
+msgstr "Estado:"
+
+#: views/clientProfile.php:94
+msgid "Address:"
+msgstr "Dirección:"
+
+#: views/clientProfile.php:95
+msgid "Note:"
+msgstr "Nota:"
+
+#: views/clientProfile.php:99
+msgid "add log"
+msgstr "Agregar registro"
+
+#: views/clientProfile.php:100
+msgid "Recent Logs"
+msgstr "Registros recientes"
+
+#: views/clientProfile.php:104 views/clientProfile.php:143
+#: views/clientProfile.php:191 views/tasks.php:101 views/tasks.php:148
+msgid "Title"
+msgstr "Título"
+
+#: views/clientProfile.php:105 views/clientProfile.php:144
+#: views/clientProfile.php:192 views/tasks.php:102 views/tasks.php:149
+msgid "Description"
+msgstr "Descripción"
+
+#: views/clientProfile.php:106 views/clientProfile.php:145
+#: views/clientProfile.php:193 views/tasks.php:150
+msgid "By"
+msgstr "Por"
+
+#: views/clientProfile.php:107 views/clientProfile.php:146
+#: views/clientProfile.php:194 views/quotationsInvoices.php:44
+#: views/tasks.php:151
+msgid "Date"
+msgstr "Fecha"
+
+#: views/clientProfile.php:125 views/clientProfile.php:172
+#: views/clientProfile.php:221 views/tasks.php:130 views/tasks.php:177
+msgid "edit"
+msgstr "editar"
+
+#: views/clientProfile.php:126 views/clientProfile.php:173
+#: views/clientProfile.php:222 views/tasks.php:131 views/tasks.php:178
+msgid "delete"
+msgstr "borrar"
+
+#: views/clientProfile.php:138 views/tasks.php:90
+msgid "add task"
+msgstr "Añadir tarea"
+
+#: views/clientProfile.php:139 views/tasks.php:144
+msgid "Recent Tasks"
+msgstr "Tareas recientes"
+
+#: views/clientProfile.php:161 views/tasks.php:119 views/tasks.php:166
+msgid "open"
+msgstr "abierto"
+
+#: views/clientProfile.php:164 views/tasks.php:122 views/tasks.php:169
+msgid "completed"
+msgstr "completado"
+
+#: views/clientProfile.php:186
+msgid "add quote / invoice"
+msgstr "Agregar cotización / factura"
+
+#: views/clientProfile.php:187
+msgid "Recent Quotes / Invoices"
+msgstr "Cotizaciones / Facturas recientes"
+
+#: views/forms.php:6
+msgid ""
+"You can display the form below on your front end using the short code "
+"<pre>[contact_form_clients]</pre> on any page you like. "
+msgstr ""
+"Puede mostrar el siguiente formulario en su front-end usando el código corto "
+"<pre>[contact_form_clients]</pre> en cualquier página que te guste. "
+
+#: views/forms.php:7
+msgid ""
+"Once somebody submits the form below, it will appear in your contacts as a "
+"Lead."
+msgstr ""
+"Una vez que alguien envíe el siguiente formulario, aparecerá en tus "
+"contactos como un cliente potencial."
+
+#: views/listClients.php:34
+msgid "contact successfully deleted"
+msgstr "Contacto eliminado correctamente"
+
+#: views/listClients.php:72
+msgid "Client Contacts"
+msgstr "Contactos del cliente"
+
+#: views/listClients.php:76 views/quotationsInvoices.php:42
+msgid "Client"
+msgstr "Cliente"
+
+#: views/listClients.php:77 views/quotationsInvoices.php:41 views/tasks.php:103
+msgid "Status"
+msgstr "Estado"
+
+#: views/listClients.php:78
+msgid "Source"
+msgstr "Fuente"
+
+#: views/listClients.php:79
+msgid "Email(s)"
+msgstr "Correo(s)"
+
+#: views/listClients.php:81
+msgid "Telephone"
+msgstr "Teléfono"
+
+#: views/listClients.php:82
+msgid "Date added"
+msgstr "Fecha Agregada"
+
+#: views/listClients.php:115
+msgid "Please add your first client. All your clients will show here."
+msgstr ""
+"Por favor, agregue su primer cliente. Todos sus clientes se mostrarán aquí."
+
+#: views/quotationsInvoices.php:34
+msgid "Add Quote"
+msgstr "Añadir cotización"
+
+#: views/quotationsInvoices.php:40
+msgid "Invoice / Quote"
+msgstr "Factura / Cotización"
+
+#: views/quotationsInvoices.php:43
+msgid "Total"
+msgstr "Total"
+
+#: views/quotationsInvoices.php:105
+msgid ""
+"This is where a list of Quotations and Invoices will appear, once there are "
+"some added to the system."
+msgstr ""
+"Aquí es donde aparecerá una lista de Cotizaciones y Facturas, una vez que "
+"haya algunas agregadas al sistema."
+
+#: views/quoteView.php:184
+msgid "Quotation"
+msgstr "Cotización"
+
+#: views/quoteView.php:197
+msgid "Item"
+msgstr "Artículo"
+
+#: views/quoteView.php:199
+msgid " "
+msgstr " "
+
+#: views/quoteView.php:231
+msgid "Tax "
+msgstr "Impuesto "
+
+#: views/quoteView.php:245
+msgid "Total "
+msgstr "Total "
+
+#: views/settings.php:40
+msgid "Easy CRM Settings"
+msgstr "Configuración Easy CRM"
+
+#: views/settings.php:41
+msgid "Quotation and Invoice settings"
+msgstr "Configuración de cotización y factura"
+
+#: views/settings.php:45
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: views/settings.php:53
+msgid "Header HTML"
+msgstr "HTML de cabecera"
+
+#: views/settings.php:56
+msgid ""
+"Enter custom HTML as the header of Quote/Invoice. This could be a place to "
+"create your letter head with a logo and address of your company"
+msgstr ""
+"Introduzca HTML personalizado como encabezado de Cotización /Factura. Este "
+"podría ser un lugar para crear su membrete con un logotipo y la dirección de "
+"su empresa. "
+
+#: views/settings.php:60
+msgid "Quote / Invoice Introduction sentence / Salutation"
+msgstr "Cotización / Factura Frase de introducción / Saludo"
+
+#: views/settings.php:63
+msgid ""
+"Enter an introduction that is used as salutation in your Quotes/Invoices."
+msgstr ""
+"Introduzca un texto que se utilice como saludo en sus presupuestos/facturas."
+
+#: views/settings.php:67
+msgid "Standard Tax Percentage"
+msgstr "Porcentaje estándar de impuesto  "
+
+#: views/settings.php:70
+msgid "Enter the standard percentage of tax you charge on your items."
+msgstr ""
+"Introduce el porcentaje estándar de impuestos que cobras por tus artículos."
+
+#: views/settings.php:74
+msgid "Currency"
+msgstr "Moneda"
+
+#: views/settings.php:81
+msgid ""
+"Choose the default currency for your Quotes/Invoices. You can use "
+"{clientname} or {clientcontacts} as placeholders."
+msgstr ""
+"Elija la moneda predeterminada para sus presupuestos/facturas. Puede "
+"utilizar {clientname} o {clientcontacts} como marcadores de posición."
+
+#: views/settings.php:85
+msgid "Footer HTML"
+msgstr "HTML de pie de página"
+
+#: views/settings.php:88
+msgid "Enter custom HTML to be added as the footer to your Quotes/Invoices."
+msgstr ""
+"Ingrese HTML personalizado para agregarlo como pie de página a sus "
+"cotizaciones / facturas."
+
+#: views/settings.php:93
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: views/tasks.php:60
+msgid ""
+"Are you sure that you want to delete the client and all its data like "
+"quotes, invoices, tasks etc?"
+msgstr ""
+"¿Está seguro de que desea eliminar el cliente y todos sus datos como "
+"cotización, facturas, tareas, etc.?"
+
+#: views/tasks.php:64
+msgid ""
+"Are you completely sure that you want to delete the client and all its data "
+"like quotes, invoices, tasks etc?"
+msgstr ""
+"¿Está completamente seguro de que desea eliminar el cliente y todos sus "
+"datos como cotización, facturas, tareas, etc.?"
+
+#: views/tasks.php:97
+msgid "My open Tasks"
+msgstr "Mis tareas abiertas"
+
+#: views/tasks.php:104
+msgid "Owner"
+msgstr "Propietario"
+
+#: views/tasks.php:105
+msgid "End-date"
+msgstr "Fecha de finalización"
+
+#. Description of the plugin/theme
+msgid ""
+"Collect new leads, manage clients, quotations, invoices, tasks and more for "
+"your entire team"
+msgstr ""
+"Recopile nuevos clientes potenciales, administre clientes, cotizaciones, "
+"facturas, tareas y más para todo su equipo"
+
+#. Author of the plugin/theme
+msgid "IT-iCO SRL"
+msgstr "IT-iCO SRL"
+
+#. Author URI of the plugin/theme
+msgid "https://it-ico.com"
+msgstr "https://it-ico.com"
